@@ -98,13 +98,156 @@ main {
     align-items: center;
     gap: 50px;
 }
-.popular-tours-container h3{
+
+.popular-tours-container h3 {
     font-size: 2rem;
     font-weight: 800;
 }
+
 .popular-tours-img {
     width: 540px;
     height: 550px;
-    /* border: 16px; */
+}
 
+/* Common box title */
+.Text-content {
+    text-align: center;
+    width: 70vw;
+    margin: 50px auto;
+
+}
+
+.Text-content h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.Text-content p {
+    width: 640px;
+    margin: -24px auto;
+}
+
+.Destination-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.choose-img-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+
+.choose-img-box-1 {
+
+    height: 200px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-img-box-2 {
+
+    height: 200px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-img-box-3 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 2;
+    width: 570px;
+    height: 200px;
+    padding: 32px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* Discount section */
+.discount-img-content {
+    background-image: url('Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.discount-img-box {
+    width: 500px;
+    height: 280px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 510px;
+    top: 60px;
+}
+
+.discount-img-box ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    margin-left: -40px;
+}
+
+.discount-img-box li {
+    list-style: none;
+    /* margin-right: 50px; */
+}
+
+.discount-img-box h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.discount-img-box h4 {
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.discount-button {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* Perfect Place section */
+.Perfect-Place-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px auto;
+}
+.Perfect-Place-content{
+    height: fit-content;
+}
+.Perfect-Place-content h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+.Perfect-Place-content ul{
+    margin: 20px auto;
+}
+.Perfect-Place-content li{
+    margin:15px auto ;
+    font-weight: 700;
+}
+
+.Perfect-Place-img img {
+    width: 510px;
+    height: 424px;
 }
