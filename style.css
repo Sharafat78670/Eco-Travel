@@ -465,7 +465,7 @@ footer {
 
     .button-find {
         flex-direction: column;
-        width: 70%;
+        width: fit-content;
     }
 
     .button-find button {
@@ -474,7 +474,7 @@ footer {
 
     .text-img button,
     .text-img-1 button {
-        width: 28.5em;
+        width:300px;
     }
 
     .popular-tours-content {
@@ -487,7 +487,7 @@ footer {
     }
 
     .popular-tours-img img {
-        width: 100%;
+        width: 440px;
     }
 
     .Text-content {
@@ -508,9 +508,11 @@ footer {
        margin: 0 auto;
         width: 80%;
     }
-
+    .Destination-img-content{
+        gap: 0;
+    }
     .Destination-img-content img {
-        width: 435px;
+        width: 370px;
         height: 220px;
     }
     .Destination-flex{
@@ -519,7 +521,7 @@ footer {
     }
     .img-text{
         position: relative;
-        left: 150px;
+        left: 140px;
         text-align: center;
         bottom: 120px;
         color: #FFF;
@@ -530,15 +532,15 @@ footer {
     }
     .discount-img-box,
     .discount-img-box-2{
-        width: 400px;
-        height: 280px;
-        padding: 50px;
+        width: 270px;
+        height: 380px;
+        padding: 20px;
         border-radius: 16px;
-        left: 20px;
-        top: 100px;
+        left: 2em;
+       bottom: 100px;
     }
     .Newsletter-img img {
-        width: 100%;
+        width: 375px;
     }
     .save-up {
         width: 180px;
@@ -547,18 +549,20 @@ footer {
         border-radius: 16px;
         padding: 10px;
         bottom: 130px;
-        left: 220px;
+        left: 150px;
     }
     .Newsletter-content{
-        width: 95%;
+        width:360px;
         padding: 10px;
+        height: 350px;
     }
+    .Newsletter-content form>input ,
     .Newsletter-content form>button {
-        width: 805;
+        width: 300px;
     }
     footer{
         width: 100%;
-        height: 300px;
+        height: 320px;
         margin-bottom: 0;
     }
     .footer-container{
