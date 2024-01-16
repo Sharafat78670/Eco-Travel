@@ -352,7 +352,40 @@ main {
     height: 400px;
     border-radius: 16px;
 }
+/* Upcoming section */
+.upcoming{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url('Images/dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    width: 1140px;
+    height: 500px;
+    border-radius: 16px;
+}
+.upcoming h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
 
+.upcoming-tour{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.upcoming-tour div{
+    flex-basis: 100px;
+}
+.upcoming-tour div p{
+    font-size: 3.5rem;
+    margin-bottom: -14px;
+    color: #FFF;
+}
+.upcoming div span{
+    text-align: center;
+    margin-top: 5px;
+}
 /* Newsletter container section */
 
 .Newsletter-container {
@@ -553,6 +586,9 @@ footer {
         padding: 10px;
         bottom: 130px;
         left: 300px;
+    }
+    .upcoming{
+        width: 550px;
     }
     .Newsletter-content{
         width:540px;

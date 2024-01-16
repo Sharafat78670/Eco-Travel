@@ -209,6 +209,48 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="upcoming">
+                <h3>Upcoming Eco Tour  !!</h3>
+                <div class="upcoming-tour">
+                <div>
+                    <p id="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Houres</span>
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+            </div>
+            <script>
+                var CountDownDate=new Date ("January 30,2024 00:00:00").getTime();
+                Varx=setInterval(function(){
+                    var now=new Date().getTime();
+                    var distance = CountDownDate -now;
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    document.getElementById("days").innerHTML=days;
+                    document.getElementById("hours").innerHTML=hours;
+                    document.getElementById("minutes").innerHTML=minutes;
+                    document.getElementById("seconds").innerHTML=seconds;
+
+                },1000);
+            </script>
+        </section>
+
         <section>
             <div class="Newsletter-container">
                 <div class="Newsletter-content">
